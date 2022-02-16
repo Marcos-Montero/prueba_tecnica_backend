@@ -13,11 +13,9 @@ import org.springframework.stereotype.Service;
 public class SupplierService{
     @Autowired
     SupplierRepository supplierRepository;
-
     public ArrayList<SupplierModel> getSuppliers(){
         return (ArrayList<SupplierModel>) supplierRepository.findAll();
     }
-
     public Optional<SupplierModel> getSupplier(Long id){
         try {
             return supplierRepository.findById(id);
@@ -26,7 +24,4 @@ public class SupplierService{
         }
     }
 
-    public SupplierModel save(SupplierModel supplier) {
-        return supplier;
-    }
 }

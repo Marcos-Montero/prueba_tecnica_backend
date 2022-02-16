@@ -23,9 +23,7 @@ public class SupplierController {
     public Optional<SupplierModel> getSupplierPorId(@PathVariable(value="id") long id){
         return this.supplierService.getSupplier(id);
     }
-    @PutMapping()
-    public SupplierModel update(@RequestBody SupplierModel supplier){
-        return supplierService.save(supplier);
-    }
+
+
 
 }
