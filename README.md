@@ -16,6 +16,11 @@
   - [Info del Proyecto<a name="info"></a>](#info-del-proyecto)
     - [Backend<a name="backend"></a>](#backend)
     - [Frontend<a name="frontend"></a>](#frontend)
+      - [Estructura](#estructura)
+      - [Componentes Reutilizables](#componentes-reutilizables)
+      - [Responsive Design](#responsive-design)
+      - [Typescript](#typescript)
+      - [Styled Components](#styled-components)
   - [Anexo: dependencias destacadas<a name="anexo"></a>](#anexo-dependencias-destacadas)
 
 ---
@@ -53,6 +58,26 @@ La colección postman consta de dos peticiones get que sirven el listado de prov
 Tratándose de una prueba técnica de frontend, el backend ha sido tratado con menor prioridad, por lo que está basado en spring-boot y el controlador, modelo, respositorio y servicio de los Suppliers. De esta manera se ha construido una API mínima para el acceso la base de datos a través de **localhost:3306/supplier** y **localhost:3306/supplier/{id}**
 
 ### Frontend<a name="frontend"></a>
+
+#### Estructura
+
+```
+.
+├── src
+│   └── api
+│   └── components
+│   └── img
+│   └── layout
+│   └── theme
+```
+
+#### Componentes Reutilizables
+
+#### Responsive Design
+
+#### Typescript
+
+#### Styled Components
 
 <img src="./doc/imgs/mobile.png" style="margin-left: 10px;" />
 
