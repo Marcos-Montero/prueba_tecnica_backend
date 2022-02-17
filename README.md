@@ -1,10 +1,12 @@
-# Documentación Prueba Técnica
+# Supplier list project for a bank service
 
-<img src="./doc/imgs/1k.png" style="width: 500px; text-align: center" />
+<div style="text-align: center; margin: 20px 20px"><img src="./doc/imgs/1k.png" style="width: 500px; align: center" /></div>
+
+---
 
 ## Índice<a name="indice"></a>
 
-- [Documentación Prueba Técnica](#documentación-prueba-técnica)
+- [Supplier list project for a bank service](#supplier-list-project-for-a-bank-service)
   - [Índice<a name="indice"></a>](#índice)
   - [Instalación<a name="instalacion"></a>](#instalación)
     - [Repositorios<a name="repositorios"></a>](#repositorios)
